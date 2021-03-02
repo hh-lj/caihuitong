@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "更多服务",
+  "usingComponents": {
+    "info": "/components/info",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "工商注册",
+  "usingComponents": {
+    "info": "/components/info",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

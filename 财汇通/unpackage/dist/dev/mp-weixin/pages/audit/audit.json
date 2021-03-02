@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "财务审计",
+  "usingComponents": {
+    "info": "/components/info",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

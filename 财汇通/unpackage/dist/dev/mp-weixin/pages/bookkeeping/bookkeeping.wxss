@@ -1,0 +1,332 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: white;
+}
+.header .head {
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.header .head .head-l {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.header .head .head-l-l image {
+  width: 90rpx;
+}
+.header .head .head-l-m {
+  width: 1rpx;
+  height: 56rpx;
+  background: #434343;
+  margin-left: 26rpx;
+}
+.header .head .head-l-r text:first-child {
+  display: block;
+  margin-left: 18rpx;
+  font-weight: bold;
+  line-height: 30rpx;
+  font-size: 30rpx;
+  letter-spacing: 1rpx;
+  color: #000000;
+}
+.header .head .head-l-r text:last-child {
+  display: block;
+  margin-top: 17rpx;
+  margin-left: 18rpx;
+  line-height: 20rpx;
+  font-size: 20rpx;
+  color: #666666;
+}
+.header .head .head-r {
+  width: 45rpx;
+  height: 30rpx;
+}
+.header .head .drawer {
+  height: 100%;
+  opacity: 1;
+}
+.header .head .drawer-box {
+  width: 100%;
+  margin-top: 100rpx;
+}
+.header .head .drawer-item {
+  margin: 30rpx auto;
+  width: 250rpx;
+  height: 50rpx;
+  border: 1rpx solid #161616;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 25rpx;
+}
+.header .head .tel {
+  margin: 40rpx auto;
+  width: 300rpx;
+  height: 70rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 35rpx;
+  background-color: #FF504D;
+}
+.bookkeeping-banner {
+  width: 100%;
+}
+.crumbs {
+  width: 100%;
+  height: 54rpx;
+  border-bottom: 1px dashed #DCDCDC;
+}
+.crumbs .content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 100%;
+}
+.crumbs .content .crumbs-bar {
+  width: 5rpx;
+  height: 12rpx;
+  background-color: #FF504D;
+  margin-right: 15rpx;
+}
+.crumbs .content text {
+  font-size: 18rpx;
+  color: #666;
+}
+.rtitle {
+  font-size: 40rpx;
+  color: #333;
+  font-weight: bold;
+  margin-top: 66rpx;
+  margin-bottom: 50rpx;
+  text-align: center;
+}
+.key .key-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+}
+.key .key-list .key-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 330rpx;
+  height: 308rpx;
+  margin-bottom: 30rpx;
+  box-sizing: border-box;
+  padding: 50rpx 40rpx 30rpx;
+  box-shadow: 0rpx 2rpx 11rpx 0rpx #F0F0F0;
+}
+.key .key-list .key-item .key-desc {
+  font-size: 28rpx;
+  color: #171718;
+  line-height: 42rpx;
+  text-align: center;
+}
+.legitimate .rtitle text {
+  display: block;
+}
+.legitimate .legitimate-swiper {
+  width: 100%;
+  height: 670rpx;
+}
+.legitimate .legitimate-swiper .swiper-item {
+  width: 100%;
+}
+.legitimate .legitimate-swiper .swiper-item image {
+  width: 100%;
+}
+.legitimate .legitimate-swiper .swiper-item .legitimate-bottom {
+  width: 100%;
+  height: 255rpx;
+  box-sizing: border-box;
+  box-shadow: 0 2rpx 11rpx 0 #F0F0F0;
+  padding: 49rpx 145rpx 20rpx 46rpx;
+}
+.legitimate .legitimate-swiper .swiper-item .legitimate-bottom .legitimate-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  margin-bottom: 25rpx;
+}
+.legitimate .legitimate-swiper .swiper-item .legitimate-bottom .legitimate-title .btitle {
+  font-size: 50rpx;
+  line-height: 50rpx;
+  color: #FF504D;
+  letter-spacing: 2rpx;
+}
+.legitimate .legitimate-swiper .swiper-item .legitimate-bottom .legitimate-title .stitle {
+  margin-left: 19rpx;
+  text-transform: uppercase;
+  font-size: 22rpx;
+  line-height: 22rpx;
+  color: #FF504D;
+  opacity: 0.5;
+  letter-spacing: 4rpx;
+}
+.legitimate .legitimate-swiper .swiper-item .legitimate-desc {
+  font-size: 28rpx;
+  line-height: 42rpx;
+  text-align: justify;
+  color: #4D4D4D;
+}
+.legitimate .legitimate-nav-contaiiner {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.legitimate .legitimate-nav-contaiiner .legitimate-nav {
+  width: 124rpx;
+  height: 139rpx;
+  background: url(data:image/png;base64,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);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 30rpx;
+  text-align: center;
+}
+.legitimate .legitimate-nav-contaiiner .legitimate-nav text {
+  font-size: 30rpx;
+  color: #888;
+  line-height: 45rpx;
+}
+.legitimate .legitimate-nav-contaiiner #cur {
+  background: url(data:image/png;base64,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);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.legitimate .legitimate-nav-contaiiner #cur text {
+  color: #fff;
+}
+.team .team-list .team-swiper {
+  width: 100%;
+  height: 960rpx;
+  margin-bottom: 70rpx;
+}
+.team .team-list .team-swiper swiper-item {
+  width: 100%;
+  height: 100%;
+}
+.team .team-list .team-swiper swiper-item image {
+  width: 100%;
+}
+.team .team-list .team-swiper swiper-item .team-title {
+  display: block;
+  margin-top: 50rpx;
+  margin-bottom: 30rpx;
+  font-size: 34rpx;
+  color: #333;
+  font-weight: bold;
+}
+.team .team-list .team-swiper swiper-item .team-desc {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 42rpx;
+  text-align: justify;
+}
+.select .select-list {
+  width: 100%;
+  height: 350rpx;
+}
+.select .select-list .swiper-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  text-align: center;
+}
+.select .select-list .swiper-item .select-item {
+  width: 332rpx;
+}
+.select .select-list .swiper-item .select-item .select-item-top {
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+.select .select-list .swiper-item .select-item .select-item-top image {
+  width: 100%;
+  height: 229rpx;
+}
+.select .select-list .swiper-item .select-item text {
+  font-size: 30rpx;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "在线报名",
+  "usingComponents": {
+    "info": "/components/info",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

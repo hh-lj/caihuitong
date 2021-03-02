@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "客户案例",
+  "usingComponents": {
+    "uni-pagination": "/components/uni-pagination/uni-pagination",
+    "info": "/components/info",
+    "uni-drawer": "/components/uni-drawer/uni-drawer"
+  }
+}

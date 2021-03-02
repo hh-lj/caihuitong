@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/contact/contact",
+    "pages/about/about",
+    "pages/news/encyclopedia",
+    "pages/news/news",
+    "pages/news/question",
+    "pages/case/programme",
+    "pages/case/case",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/bookkeeping/bookkeeping",
+    "pages/handle/handle",
+    "pages/audit/audit",
+    "pages/more/more",
+    "pages/make/make"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "backgroundColor": "#FF504D",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/fmenu1.png",
+        "selectedIconPath": "static/fmenu1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/make/make",
+        "iconPath": "static/fmenu2.png",
+        "selectedIconPath": "static/fmenu2.png",
+        "text": "在线报名"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "iconPath": "static/fmenu3.png",
+        "selectedIconPath": "static/fmenu3.png",
+        "text": "客户案例"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "static/fmenu4.png",
+        "selectedIconPath": "static/fmenu4.png",
+        "text": "关于我们"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap11.json"
+}
